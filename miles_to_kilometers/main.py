@@ -1,6 +1,6 @@
 import tkinter as tk
-from tkinter import ttk
-import ttkbootstrap
+#from tkinter import ttk
+import ttkbootstrap as ttk
 
 def convert():
     km = entry_val.get() * 1.60934
@@ -8,7 +8,8 @@ def convert():
     #entryVal = km
     
 
-window  = tk.Tk()
+#window  = tk.Tk()
+window = ttk.Window(themename='journal')
 window.title('Demo')
 window.geometry('300x150')
 
