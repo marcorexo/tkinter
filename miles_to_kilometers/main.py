@@ -18,7 +18,7 @@ entry.pack(side='left', padx=10)
 button.pack(side='left')
 input_frame.pack(pady=10)
 
-output_label = ttk.Label(master=window, text='output...', font='Calibri 24 bold')
-output_label.pack()
+output_label = ttk.Label(master=window, text='output...', font='Calibri 24')
+output_label.pack(pady=5)
 
 window.mainloop()
